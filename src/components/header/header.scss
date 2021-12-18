@@ -1,0 +1,44 @@
+.header {
+	width: 95%;
+	margin: 0 auto;
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid #ffffff;
+	box-shadow: 8px 8px 12px;
+
+	.one {
+		width: 100%;
+		border-radius: 17px;
+		border-top: 2px solid #cccccc;
+		border-bottom: 2px solid #cccccc;
+
+		.two {
+			width: 100%;
+			border-radius: 14px;
+			border-top: 2px solid #999999;
+			border-bottom: 2px solid #999999;
+
+			.three {
+				width: 100%;
+				border-radius: 11px;
+				border-top: 2px solid #666666;
+				border-bottom: 2px solid #666666;
+
+				.four {
+					width: 100%;
+					border-radius: 8px;
+					border-top: 2px solid #333333;
+					border-bottom: 2px solid #333333;
+
+					h1:first-child {
+						padding-top: 15px;
+					}
+
+					h1:last-child {
+						padding-bottom: 15px;
+					}
+				}
+			}
+		}
+	}
+}
